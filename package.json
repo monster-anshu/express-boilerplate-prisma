@@ -1,9 +1,12 @@
 {
-  "name": "express-bolierplate",
+  "name": "express-bolierplate-prisma",
   "version": "0.0.0",
   "description": "TypeScript + Express API Server",
   "author": "Himanshu Gunwant",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/monster-anshu/express-boilerplate-prisma.git"
+  },
   "scripts": {
     "start": "cross-env NODE_ENV=production node dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon",
